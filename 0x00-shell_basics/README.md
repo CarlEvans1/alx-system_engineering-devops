@@ -56,5 +56,16 @@ ln -s /bin/ls __ls__
 
 14-copy_html
 #!/bin/bash
-cp -u *.htm ..
+cp -un *.html ../
 
+100-lets_move
+#!/bin/bash
+mv [A-Z]* /tmp/u
+
+101-clean_emacs
+#!/bin/bash
+rm *~
+
+102-tree
+#!/bin/bash
+mkdir -p welcome/to/school
