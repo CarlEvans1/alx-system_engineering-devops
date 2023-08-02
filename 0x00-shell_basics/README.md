@@ -20,7 +20,7 @@ ls -al
 
 5-listfilesdigitonly
 #!/bin/bash
-ls -al
+ls -lan
 
 6-firstdirectory
 #!/bin/bash
