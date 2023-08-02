@@ -58,3 +58,14 @@ ln -s /bin/ls __ls__
 #!/bin/bash
 cp -u *.htm ..
 
+100-lets_move
+#!/bin/bash
+mv [A-Z]* /tmp/u
+
+101-clean_emacs
+#!/bin/bash
+rm *~
+
+102-tree
+#!/bin/bash
+mkdir -p welcome/to/school
