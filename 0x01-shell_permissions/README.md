@@ -52,4 +52,4 @@ mkdir -m 751 my_dir
 
 13. Change group
 #!/bin/bash
-sudo chown :school hello
+chgrp school ./hello
