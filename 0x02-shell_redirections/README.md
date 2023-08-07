@@ -58,4 +58,40 @@ sort | uniq -u
 #!/bin/bash
 grep -i "root" /etc/passwd
 
+15. Count that word
+#!/bin/bash
+grep -c -i "bin" /etc/passwd
+
+16. What's next?
+#!/bin/bash
+grep -i "root" -A 3 /etc/passwd
+
+17. I hate bins
+#!/bin/bash
+grep -i -v "bin" /etc/passwd
+
+18. Letters only please
+#!/bin/bash
+grep -i "^[a-z]" /etc/ssh/sshd_config
+
+19. A to Z
+#!/bin/bash
+tr "A" "Z" | tr "c" "e"
+
+20. Without C, you would live in hiago
+#!/bin/bash
+tr -d "cC"
+
+21. esreveR
+#!/bin/bash
+rev
+
+22. DJ Cut Killer
+#!/bin/bash
+cut -d ':' -f 1,6 /etc/passwd | sort
+
+23. Empty casks make the most noise
+#!/bin/bash
+find . -empty | rev | cut -d '/' -f 1 | rev
+
 
