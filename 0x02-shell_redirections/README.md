@@ -28,4 +28,8 @@ head -n 3 iacta | tail -n 1
 
 7. It is a good file that cuts iron without making a noise
 #!/bin/bash
+echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
 
+8. Save current state of directory
+#!/bin/bash
+ls -la > ls_cwd_content
