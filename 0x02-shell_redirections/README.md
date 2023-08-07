@@ -94,4 +94,8 @@ cut -d ':' -f 1,6 /etc/passwd | sort
 #!/bin/bash
 find . -empty | rev | cut -d '/' -f 1 | rev
 
+24. A gif is worth ten thousand words
+#!/bin/bash
+find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f
+
 
