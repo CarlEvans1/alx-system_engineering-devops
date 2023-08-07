@@ -33,3 +33,19 @@ echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\
 8. Save current state of directory
 #!/bin/bash
 ls -la > ls_cwd_content
+
+9. Duplicate last line
+#!/bin/bash
+tail -n 1 iacta >> iacta
+
+10. No more javascript
+#!/bin/bash
+find . -type f -name "*.js" -delete
+
+11. Don't just count your directories, make your directories count
+#!/bin/bash
+find . -type d -not -name '.' | wc -l
+
+12. What’s new
+#!/bin/bash
+ls -lt | head
