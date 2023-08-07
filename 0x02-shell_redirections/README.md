@@ -48,4 +48,14 @@ find . -type d -not -name '.' | wc -l
 
 12. What’s new
 #!/bin/bash
-ls -lt | head
+ls -t1 | head -n 10
+
+13. Being unique is better than being perfect
+#!/bin/bash
+sort | uniq -u
+
+14. It must be in that file
+#!/bin/bash
+grep -i "root" /etc/passwd
+
+
