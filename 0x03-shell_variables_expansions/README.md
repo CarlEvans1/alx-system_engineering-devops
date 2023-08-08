@@ -58,4 +58,14 @@ printf "%.2f" $NUM | sort
 #!/bin/bash
 printf '%x\n' $DECIMAL
 
+15. Everyone is a proponent of strong encryption
+#!/bin/bash
+tr `echo {a..z} | tr -d ' '` `echo {n..z} $(echo {a..m} | tr -d ' '` | tr `echo {A..Z} | tr -d ' '` `echo {N..Z} $(echo {A..M}) | tr -d ' '`
 
+16. The eggs of the brood need to be an odd number
+#!/bin/bash
+perl -lne 'print if $. % 2 ==1
+
+17. I'm an instant star. Just add water and stir.
+#!/bin/bash
+echo $(printf %o $(($((5#$(echo $WATER | tr 'water' '01234'))) + $((5#$(echo $STIR | tr 'stir.' '01234'))))) | tr '01234567' 'bestchol')
